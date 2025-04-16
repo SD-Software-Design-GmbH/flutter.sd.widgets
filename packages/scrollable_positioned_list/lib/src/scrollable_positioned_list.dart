@@ -293,6 +293,10 @@ class ScrollOffsetController {
     );
   }
 
+  double getMaxExtent() {
+    return _scrollableListState!.primary.scrollController.position.maxScrollExtent;
+  }
+
   _ScrollablePositionedListState? _scrollableListState;
 
   void _attach(_ScrollablePositionedListState scrollableListState) {
