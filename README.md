@@ -1,4 +1,8 @@
-[![Build](https://github.com/google/flutter.widgets/actions/workflows/build.yaml/badge.svg)](https://github.com/google/flutter.widgets/actions/workflows/build.yaml)
+# flutter.sd.widgets
+
+This is our fork of [google/flutter.widgets](https://github.com/google/flutter.widgets), used in our own apps. The only change: `scrollable_positioned_list` has an additional `getMaxExtent()` to check whether the user has scrolled to the top. Please report issues with the other packages upstream.
+
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](LICENSE)
 
 ## Flutter widgets
 
@@ -28,3 +32,7 @@ repo](https://github.com/google/flutter.widgets/issues/new).
 If you wish to contribute a change to any of the existing widgets in this repo,
 please review our [contribution guide](https://github.com/google/flutter.widgets/blob/master/CONTRIBUTING.md),
 and send a [pull request](https://github.com/google/flutter.widgets/pulls).
+
+---
+
+Fork maintained by [SD Software-Design GmbH](https://software-design.de) · [BSD-3-Clause License](LICENSE)
